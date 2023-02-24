@@ -1,7 +1,9 @@
 :root {
     --swiper-theme-color: rgba(233, 100, 121, 0.8);
     --image-slide-one: url("../../image/image-slide-one.svg");
+    --image-slide-two: url("../../image/image-slide-two.png");
     --background-slide-one: #591d58;
+    --background-slide-two: #591d58;
     --body-color: #e0dada;
     --white: #e0dada;
 }
@@ -89,31 +91,13 @@
 }
 
 .slide-two {
-    background: url("/assets/image/blurred-valentine-s-day-wallpaper/4871703.jpg") no-repeat center center;
-    background-size: cover; 
+    background: var(--image-slide-two) no-repeat center center;
 }
 
-/* Background color */
-body, body[data-sld="0"] {
-    padding: 80px 70px;
-    background: var(--background-slide-one);
-}
-
-
-[data-sld="2"] body {
-    padding: 50px;
-    background: #591d58;
-}
-
-[data-sld="3"] body {
-    background-color: var(--body-color);
-}
 
 /* Responsive */
 @media screen and (max-width: 1200px) {
-    body, body[data-sld="0"]{
-        padding: 70px 65px;
-    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -121,10 +105,6 @@ body, body[data-sld="0"] {
 }
 
 @media screen and (max-width: 768px) {
-    body, body[data-sld="0"]{
-        padding: 65px 60px;
-    }
-
     .button-navigation-container {
         position: absolute;
         top: 50%;
@@ -149,7 +129,5 @@ body, body[data-sld="0"] {
 }
 
 @media screen and (max-width: 600px) {
-    body, body[data-sld="0"]{
-        padding: 40px 35px;
-    }
+
 }
