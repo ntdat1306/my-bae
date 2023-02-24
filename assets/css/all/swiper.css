@@ -1,6 +1,6 @@
 :root {
     --swiper-theme-color: rgba(233, 100, 121, 0.8);
-    --image-slide-one: url("../assets/image/image-slide-one.svg");
+    --image-slide-one: url("..image/image-slide-one.svg");
     --background-slide-one: #591d58;
     --body-color: #e0dada;
     --white: #e0dada;
