@@ -60,6 +60,7 @@
         height: 70%;
         max-width: 250px;
         min-width: 0;
+        max-height: 350px;
     }
 
     .profile-card-avatar {
@@ -81,6 +82,7 @@
     .profile-card-wrapper {
         width: 70%;
         height: 60%;
+        max-height: 300px;
     }
 
     .profile-card-avatar {

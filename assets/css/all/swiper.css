@@ -112,7 +112,7 @@ body, body[data-sld="0"] {
 /* Responsive */
 @media screen and (max-width: 1200px) {
     body, body[data-sld="0"]{
-        padding: 80px 60px;
+        padding: 70px 65px;
     }
 }
 
@@ -122,7 +122,7 @@ body, body[data-sld="0"] {
 
 @media screen and (max-width: 768px) {
     body, body[data-sld="0"]{
-        padding: 70px 60px;
+        padding: 65px 60px;
     }
 
     .button-navigation-container {
@@ -141,10 +141,15 @@ body, body[data-sld="0"] {
     .swiper-button, .swiper-pagination-fraction {
         scale: 0.85;
     }
+
+    .swiper-horizontal>.swiper-pagination-progressbar {
+        top: 0;
+        bottom: initial;
+    }
 }
 
 @media screen and (max-width: 600px) {
     body, body[data-sld="0"]{
-        padding: 50px 35px;
+        padding: 40px 35px;
     }
 }
