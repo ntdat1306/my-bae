@@ -1,0 +1,28 @@
+.slide-one-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .slide-one-container {
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}

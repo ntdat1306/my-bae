@@ -1,0 +1,150 @@
+:root {
+    --swiper-theme-color: rgba(233, 100, 121, 0.8);
+    --image-slide-one: url("/assets/image/image-slide-one.svg");
+    --background-slide-one: #591d58;
+    --body-color: #e0dada;
+    --white: #e0dada;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide-active {
+    opacity: 1 !important;
+}
+
+/* Button */
+.button-navigation-container {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    z-index: 999;
+}
+
+.button-navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-navigation-wrapper svg {
+    width: 28px;
+}
+
+.swiper-button {
+    position: relative;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.swiper-button-next {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.swiper-button-prev {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.swiper-button-prev svg {
+    transform: rotate(180deg);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: black;
+    background-color: var(--white);
+}
+
+/* Pagination */
+.swiper-horizontal>.swiper-pagination-progressbar {
+    bottom: 0;
+    top: auto;
+}
+
+/* Remove default arrow */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "";
+}
+
+/* Slide */
+.slide-one {
+    background: var(--image-slide-one) no-repeat center center;
+    background-size: cover; 
+}
+
+.slide-two {
+    background: url("/assets/image/blurred-valentine-s-day-wallpaper/4871703.jpg") no-repeat center center;
+    background-size: cover; 
+}
+
+/* Background color */
+body, body[data-sld="0"] {
+    padding: 80px 70px;
+    background: var(--background-slide-one);
+}
+
+
+[data-sld="2"] body {
+    padding: 50px;
+    background: #591d58;
+}
+
+[data-sld="3"] body {
+    background-color: var(--body-color);
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    body, body[data-sld="0"]{
+        padding: 80px 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    body, body[data-sld="0"]{
+        padding: 70px 60px;
+    }
+
+    .button-navigation-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 0;
+    }
+
+    .button-navigation-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .swiper-button, .swiper-pagination-fraction {
+        scale: 0.85;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body, body[data-sld="0"]{
+        padding: 50px 35px;
+    }
+}

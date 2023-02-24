@@ -1,0 +1,79 @@
+.slide-one .heart img {
+    width: 30vh;
+    opacity: 0.8;
+    animation: heart-beat 1s infinite;
+}
+
+.heart-days {
+    position: absolute;
+    z-index: 999;
+    color: var(--white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-size: 30px;
+    text-align: center;
+    animation: heart-beat 1s infinite;
+    font-family: var(--italic-font);
+}
+
+.heart-title {
+    color: var(--white);
+    font-family: var(--italic-font);
+}
+
+@keyframes heart-beat {
+    0% {
+        scale: 1.03;
+    }
+    20% {
+        scale: 1.02;
+    }
+    40% {
+        scale: 1.01;
+    }
+    60% {
+        scale: 1;
+    }
+    80% {
+        scale: 0.99;
+    }
+    100% {
+        scale: 0.98;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .slide-one .heart img {
+        width: 22vh;
+    }
+    
+    .heart-days {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .slide-one .heart img {
+        width: 16vh;
+    }
+
+    .heart-days {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-one .heart img {
+        width: 15vh;
+    }
+
+    .heart-days {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}

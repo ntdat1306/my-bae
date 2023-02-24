@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+:root {
+    --body-font: "Montserrat", sans-serif;
+    --italic-font: "EB Garamond", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+img {
+    vertical-align: middle;
+}
