@@ -92,6 +92,7 @@
 
 .slide-two {
     background: var(--image-slide-two) no-repeat center center;
+    background-size: cover; 
 }
 
 
