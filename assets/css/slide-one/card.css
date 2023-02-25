@@ -52,6 +52,10 @@
     /* font-family: var(--italic-font); */
 }
 
+.profile-nick-name {
+    font-size: 18px;
+}
+
 .profile-card-link a {
     position: absolute;
     left: 50%;
@@ -90,6 +94,10 @@
         font-size: 18px;
     }
 
+    .profile-nick-name {
+        font-size: 16px;
+    }
+
     .profile-card-link a {
         bottom: 10px;
     }
@@ -103,7 +111,7 @@
     }
 
     .profile-card-avatar {
-        height: 45px;
+        height: 35px;
     }
 
     .profile-card-avatar img {
@@ -114,6 +122,10 @@
 
     .profile-card-name {
         font-size: 16px;
+    }
+
+    .profile-nick-name {
+        font-size: 14px;
     }
 
     .profile-card-link a {
@@ -135,12 +147,16 @@
     }
 
     .profile-card-avatar {
-        height: 30px;
+        height: 25px;
         bottom: 65px;
     }
 
     .profile-card-link a {
         bottom: 5px;
+    }
+
+    .profile-card-name img {
+        width: 22px;
     }
 }
 
