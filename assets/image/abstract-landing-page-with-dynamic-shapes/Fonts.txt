@@ -1,9 +1,0 @@
-Fonts used in this design:
-
-Font: Passion One
-Author: Fontstage
-Url: http://www.fontsquirrel.com/fonts/passion-one
-
-Font: Roboto
-Author: Christian Robertson
-Url: http://www.fontsquirrel.com/fonts/roboto
