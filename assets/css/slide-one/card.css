@@ -62,11 +62,12 @@
     text-align: center;
     /* font-family: var(--italic-font); */
     color: #e0dada;
-    background: rgba(221, 69, 173, 0.5);
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 14px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
 }
 
 
@@ -96,7 +97,6 @@
 
     .profile-card-link a {
         bottom: 10px;
-        padding: 5px 25px;
     }
 }
 
@@ -123,7 +123,6 @@
 
     .profile-card-link a {
         bottom: 5px;
-        padding: 4px 25px;
     }
 }
 
@@ -147,7 +146,6 @@
 
     .profile-card-link a {
         bottom: 5px;
-        padding: 2px 25px;
     }
 }
 
