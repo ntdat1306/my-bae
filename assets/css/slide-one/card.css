@@ -52,12 +52,12 @@
     /* font-family: var(--italic-font); */
 }
 
-.profile-card-link a{
+.profile-card-link a {
     width: fit-content;
     min-width: 133px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%, 0%);
     bottom: 15px;
     text-align: center;
     /* font-family: var(--italic-font); */
@@ -67,7 +67,6 @@
     border-radius: 5px;
     font-size: 14px;
     text-decoration-line: underline;
-    text-decoration-thickness: 2px;
 }
 
 
