@@ -168,4 +168,8 @@
     .profile-card-avatar {
         height: 25px;
     }
+
+    .profile-card-name img {
+        width: 20px;
+    }
 }
