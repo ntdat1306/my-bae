@@ -53,20 +53,17 @@
 }
 
 .profile-card-link a {
-    width: fit-content;
-    min-width: 133px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
     bottom: 15px;
-    text-align: center;
-    /* font-family: var(--italic-font); */
-    color: #e0dada;
+    color: var(--white);
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 14px;
     text-decoration-line: underline;
+    padding: 0;
 }
 
 
