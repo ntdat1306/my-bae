@@ -73,3 +73,15 @@
         transform: scale(1.2, 1);
     }
 }
+
+@media screen and (max-width: 600px) {
+    .loader {
+        width: 36px;
+        height: 36px;
+    }
+
+    .loader:before {
+        width: 36px;
+        top: 50px;
+    }
+}

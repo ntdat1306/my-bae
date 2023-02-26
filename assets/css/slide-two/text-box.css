@@ -1,0 +1,8 @@
+.text-box-container {
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    background: var(--white);
+    border-radius: 15px;
+    display: none;
+}

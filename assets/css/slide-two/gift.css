@@ -1,0 +1,125 @@
+.clap {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clap .clap-icon img {
+    height: 300px;
+    width: 350px;
+}
+
+.clap .confetti-effect {
+    transform-origin: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.clap .confetti-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.clap .confetti-wrap.expand {
+    animation: confetti 0.7s ease infinite;
+}
+.clap .confetti-wrap .group {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.clap .confetti-wrap .group-1 {
+    top: -20px;
+    left: 20px;
+}
+.clap .confetti-wrap .group-2 {
+    top: 9px;
+    left: 60px;
+    transform: rotate(70deg);
+}
+.clap .confetti-wrap .group-3 {
+    top: 51px;
+    left: 43px;
+    transform: rotate(142deg);
+}
+.clap .confetti-wrap .group-4 {
+    top: 51px;
+    left: -4px;
+    transform: rotate(-145deg);
+}
+.clap .confetti-wrap .group-5 {
+    top: 13px;
+    left: -18px;
+    transform: rotate(-63deg);
+}
+.clap .confetti-wrap .group span {
+    display: inline-block;
+}
+.clap .confetti-wrap .group .circle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0;
+    border-radius: 50%;
+    background-color: #1ad934;
+}
+.clap .confetti-wrap .group .triangle {
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 14px solid #ffe92a;
+}
+
+@keyframes confetti {
+    from {
+        transform: scale(0.7);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .clap .clap-icon img {
+        height: 270px;
+        width: 315px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .clap .clap-icon img {
+        height: 264px;
+        width: 308px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .clap .clap-icon img {
+        height: 240px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .clap .clap-icon img {
+        height: 210px;
+        width: 245px;
+    }
+}
