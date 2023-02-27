@@ -25,5 +25,5 @@ const counterAnim = (qSelector, start, end, duration) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    counterAnim("#count-days", 0 , Math.floor(Difference_In_Days), 1000);
+    counterAnim("#count-days", 0 , Math.floor(Difference_In_Days)+1, 1000);
 });
