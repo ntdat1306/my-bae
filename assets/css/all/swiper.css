@@ -54,8 +54,9 @@
 }
 
 .swiper-button svg {
-    scale: 0.85;
+    scale: 0.75;
 }
+
 .swiper-button-next {
     margin-left: 5px;
     margin-right: 10px;
