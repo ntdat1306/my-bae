@@ -8,3 +8,8 @@ $(document).mouseup(function(e)
         container.hide();
     }
 });
+
+// Button close
+$("#text-box-close").on("click", function() {
+    $('#text-box').fadeOut('slow')
+})
