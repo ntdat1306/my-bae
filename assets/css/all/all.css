@@ -23,7 +23,7 @@ body {
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--italic-font);
 }
 
 img {
