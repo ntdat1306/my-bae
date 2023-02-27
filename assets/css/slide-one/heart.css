@@ -1,6 +1,6 @@
 .slide-one .heart img {
     width: 30vh;
-    opacity: 0.8;
+    opacity: 1;
     animation: heart-beat 1s infinite;
 }
 

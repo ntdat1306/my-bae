@@ -12,8 +12,9 @@
     height: 70%;
     max-height: 500px;
     min-width: 300px;
-    background: rgba(221, 69, 173, 0.25);
+    background: rgba(233, 0, 100, 0.35);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .profile-card-cover {

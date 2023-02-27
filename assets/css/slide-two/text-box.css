@@ -2,7 +2,9 @@
     width: 85%;
     height: 80%;
     position: absolute;
-    background: var(--white);
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #3c1053, #ad4b86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #3c1053, #ad4b86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     border-radius: 15px;
     display: none;
 }
