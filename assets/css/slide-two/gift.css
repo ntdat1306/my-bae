@@ -13,14 +13,7 @@
 .clap .clap-icon img {
     height: 300px;
     width: 350px;
-}
-
-.clap .clap-icon img::selection {
-    background: transparent;
-}
-
-.clap .clap-icon img::-moz-selection {
-    background: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .clap .confetti-effect {
