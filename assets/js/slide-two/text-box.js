@@ -1,8 +1,10 @@
-$(document).click(function (e) {
-    if (e.target.id == 'gift' || e.target.id == 'clap') {
-        $("#text-box").fadeIn("slow");
+$(document).mouseup(function(e) 
+{
+    var container = $("#text-box");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.hide();
     }
-    else if (e.target.id != 'text-box' && !$('#text-box').find(e.target).length) {
-        $('#text-box').hide()
-    }
-})
+});

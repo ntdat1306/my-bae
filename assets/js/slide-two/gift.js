@@ -6,7 +6,6 @@ $(function () {
     }
 
     var clap = $('.clap')
-    var gift = $('#gift')
     var confetti = $('.confetti-effect')
 
     clap.on('click', function () {
@@ -17,8 +16,6 @@ $(function () {
             confetti.children('.confetti-wrap').removeClass('expand')
         }, 700)
 
-        if (e.target.id == 'gift' || e.target.id == 'clap') {
-            $("#text-box").fadeIn("slow");
-        }
+        $('#text-box').fadeIn('slow')
     })
 })

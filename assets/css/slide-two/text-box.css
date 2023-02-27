@@ -1,8 +1,33 @@
 .text-box-container {
-    width: 80%;
-    height: 550px;
+    width: 85%;
+    height: 80%;
     position: absolute;
     background: var(--white);
     border-radius: 15px;
     display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .text-box-container {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .text-box-container {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-box-container {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-box-container {
+        height: 550px;
+    }
 }
