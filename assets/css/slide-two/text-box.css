@@ -12,24 +12,20 @@
 /* Responsive */
 @media screen and (max-width: 1200px) {
     .text-box-container {
-        height: 700px;
+        height: 85%;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .text-box-container {
-        height: 650px;
-    }
+
 }
 
 @media screen and (max-width: 768px) {
     .text-box-container {
-        height: 600px;
+        height: 90%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .text-box-container {
-        height: 550px;
-    }
+
 }
