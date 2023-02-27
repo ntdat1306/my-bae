@@ -5,6 +5,7 @@ const swiper = new Swiper('.swiper', {
         enabled: true,
     },
     effect: "fade",
+    allowTouchMove: false,
     // loop: "infinite",
 
     // If we need pagination

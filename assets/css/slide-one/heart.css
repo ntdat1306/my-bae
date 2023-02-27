@@ -11,10 +11,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-60%);
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     animation: heart-beat 1s infinite;
-    font-family: var(--italic-font);
+    /* font-family: var(--italic-font); */
+    font-style: italic;
 }
 
 .heart-title {

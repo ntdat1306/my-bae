@@ -2,11 +2,20 @@
     width: 85%;
     height: 80%;
     position: absolute;
-    background: #ad5389;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(-45deg, #3c1053, #ad4b86);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(-45deg, #3c1053, #ad4b86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #ad5389;
+    background: -webkit-linear-gradient(-45deg, #3c1053, #ad4b86);  
+    background: linear-gradient(-45deg, #3c1053, #ad4b86);   
     border-radius: 15px;
     display: none;
+}
+
+.text-box-grid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text-box-close {
@@ -19,21 +28,20 @@
 .text-box-title {
     font-family: var(--italic-font);
     font-style: italic;
-    font-size: 2.5rem;
+    font-size: 36px;
     color: var(--white);
     text-align: center;
     margin-top: 40px;
     margin-right: 0;
-
-
 }
 
 .text-box-content {
     font-family: var(--italic-font);
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--white);
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .text-box-image {
@@ -41,10 +49,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .text-box-image img{
-    width: 450px;
+    width: 300px;
+}
+
+.text-box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Responsive */
@@ -59,8 +75,13 @@
 }
 
 @media screen and (max-width: 992px) {
-    .text-box-image {
-        flex-direction: column;
+    .text-box-title {
+        margin-top: 80px;
+    }
+
+    .text-box-wrapper {
+        scale: 0.9;
+        transform-origin: top;
     }
 }
 
@@ -69,8 +90,46 @@
         height: 90%;
     }
 
+    .text-box-wrapper {
+        flex-direction: column;
+    }
+
+    .text-box-image img{
+        width: 150px;
+    }
+
+    .text-box-title {
+        font-size: 30px;
+    }
+
+    .text-box-image {
+        padding: 20px;
+    }
+
+    .text-box-content {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    .text-box-wrapper {
+        height: fit-content;
+    }
 
+    .text-box-image img{
+        width: 150px;
+    }
+
+    .text-box-title {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .text-box-image {
+        padding: 20px;
+    }
+
+    .text-box-content {
+        font-size: 20px;
+    }
 }

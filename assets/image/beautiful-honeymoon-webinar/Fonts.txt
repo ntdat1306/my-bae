@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Poppins
+Author: Indian Type Foundry,Jonny Pinhorn
+Url: https://fonts.google.com/specimen/Poppins
+
+Font: Pacifico
+Author: Vernon Adams,Jacques Le Bailly,Botjo Nikoltchev,Ani Petrova
+Url: https://fonts.google.com/specimen/Pacifico
