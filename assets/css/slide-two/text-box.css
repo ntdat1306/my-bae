@@ -23,6 +23,7 @@
     right: 0;
     cursor: pointer;
     position: absolute;
+    opacity: 0.9;
 }
 
 .text-box-close svg{
@@ -71,6 +72,15 @@
     justify-content: center;
 }
 
+.gift-title {
+    position: absolute;
+    top: 30%;
+    color: var(--white);
+    font-family: var(--italic-font);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
 /* Responsive */
 @media screen and (max-width: 1200px) {
     .text-box-container {
@@ -139,5 +149,9 @@
 
     .text-box-content {
         font-size: 20px;
+    }
+
+    .text-box-close svg{
+        scale: 0.4;
     }
 }

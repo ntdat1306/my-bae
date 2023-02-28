@@ -44,14 +44,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #030d28;
+    color: #292a2c;
     transition: 0.5s;
 }
 
 .click-card-item span:hover {
     cursor: pointer;
-    background: #030d28;
-    color: white;
+    background: rgb(236, 4, 104);
+    color: var(--white);
 }
 
 .click-card-item i {
@@ -61,8 +61,8 @@
 .click-card-expand {
     width: 400px;
     border-radius: 20px;
-    box-shadow: 0 0 10px #44ddff,
-    0 0 50px #44ddff;
+    box-shadow: 0 0 10px rgba(233, 0, 100, 0.8),
+    0 0 50px rgba(233, 0, 100, 0.8);
     filter: grayscale(0);
 }
 
