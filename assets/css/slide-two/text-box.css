@@ -3,8 +3,8 @@
     height: 80%;
     position: absolute;
     background: #ad5389;
-    background: -webkit-linear-gradient(-45deg, #3c1053, #ad4b86);  
-    background: linear-gradient(-45deg, #3c1053, #ad4b86);   
+    background: -webkit-linear-gradient(-45deg, #3c1153, #ad4784);  
+    background: linear-gradient(-45deg, #3c1153, #ad4784);   
     border-radius: 15px;
     display: none;
 }

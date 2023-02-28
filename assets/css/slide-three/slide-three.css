@@ -1,0 +1,177 @@
+.slide-three-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.slide-three-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.click-card-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+    filter: grayscale(60%);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.click-card-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.click-card-item span {
+    position: absolute;
+    bottom: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030d28;
+    transition: 0.5s;
+}
+
+.click-card-item span:hover {
+    cursor: pointer;
+    background: #030d28;
+    color: white;
+}
+
+.click-card-item i {
+    font-size: 30px;
+}
+
+.click-card-expand {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #44ddff,
+    0 0 50px #44ddff;
+    filter: grayscale(0);
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .slide-three-container ul {
+        gap: 40px;
+    }
+
+    .click-card-item {
+        height: 450px;
+        width: 90px;
+        border-radius: 70px;
+        
+    }
+
+    .click-card-item span {
+        bottom: 15px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .click-card-item i {
+        font-size: 25px;
+    }
+
+    .click-card-expand {
+        width: 350px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .slide-three-container ul {
+        gap: 30px;
+    }
+
+    .click-card-item {
+        height: 400px;
+        width: 80px;
+        border-radius: 60px;
+        
+    }
+
+    .click-card-item span {
+        bottom: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .click-card-item i {
+        font-size: 24px;
+    }
+
+    .click-card-expand {
+        width: 300px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-three-container ul {
+        gap: 20px;
+    }
+
+    .click-card-item {
+        height: 400px;
+        width: 80px;
+        border-radius: 60px;
+        
+    }
+
+    .click-card-item span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .click-card-item i {
+        font-size: 23px;
+    }
+
+    .click-card-expand {
+        width: 300px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slide-three-container ul {
+        gap: 10px;
+    }
+
+    .click-card-item {
+        height: 300px;
+        width: 60px;
+        border-radius: 40px;
+    }
+
+    .click-card-item span {
+        width: 40px;
+        height: 40px;
+    }
+
+    .click-card-item i {
+        font-size: 20px;
+    }
+
+    .click-card-expand {
+        width: 200px;
+        border-radius: 20px;
+    }
+}
