@@ -2,9 +2,10 @@
     width: 85%;
     height: 80%;
     position: absolute;
-    background: #ad5389;
+    /* background: #ad5389;
     background: -webkit-linear-gradient(-45deg, #3c1153, #ad4784);  
-    background: linear-gradient(-45deg, #3c1153, #ad4784);   
+    background: linear-gradient(-45deg, #3c1153, #ad4784);    */
+    background: url("../../image/bg-2-box.png") no-repeat center center;
     border-radius: 15px;
     display: none;
 }
