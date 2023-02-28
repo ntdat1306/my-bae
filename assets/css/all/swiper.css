@@ -3,6 +3,7 @@
     --image-slide-one: url('../../image/bg-1.png');
     --image-slide-two: url('../../image/bg-2.png');
     --image-slide-three: url('../../image/bg-3.png');
+    --image-slide-four: url('../../image/bg-4.png');
     --body-color: #e0dada;
     --white: #e0dada;
 }
@@ -102,6 +103,11 @@
 
 .slide-three {
     background: var(--image-slide-three) no-repeat center center;
+    background-size: cover;
+}
+
+.slide-four {
+    background: var(--image-slide-four) no-repeat center center;
     background-size: cover;
 }
 

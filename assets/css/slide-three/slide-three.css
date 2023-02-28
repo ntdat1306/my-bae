@@ -61,8 +61,8 @@
 .click-card-expand {
     width: 400px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(233, 0, 100, 0.8),
-    0 0 50px rgba(233, 0, 100, 0.8);
+    box-shadow: 0 0 10px rgba(233, 0, 100, 0.5),
+    0 0 20px rgba(233, 0, 100, 0.5);
     filter: grayscale(0);
 }
 
